@@ -1,0 +1,33 @@
+<html>
+<body bgcolor="yellow">
+    </body>
+<title>simple calculater</title>
+<link href="style.css" rel="stylesheet">
+<form name="calculater">
+    <input type="textfield" size="40" class="text" name="ans" value="">
+    <br>
+    <h2>
+    <input class="button" type="button" value="1" onclick="document.calculater.ans.value+='1'">
+    <input class="hello" type="button" value="2" onclick="document.calculater.ans.value+='2'">
+    <input class="three" type="button" value="3" onclick="document.calculater.ans.value+='3'">
+    <input class="plus" type="button" value="+" onclick="document.calculater.ans.value+='+'">
+    <br>
+    <input class="four" type="button" value="4" onclick="document.calculater.ans.value+='4'">
+    <input class="five" type="button" value="5" onclick="document.calculater.ans.value+='5'">
+    <input class="six" type="button" value="6" onclick="document.calculater.ans.value+='6'">
+    <input class="minus" type="button" value="-" onclick="document.calculater.ans.value+='-'">
+    <br>
+    <input class="seven" type="button" value="7" onclick="document.calculater.ans.value+='7'">
+    <input class="eight" type="button" value="8" onclick="document.calculater.ans.value+='8'">
+    <input class="nine" type="button" value="9" onclick="document.calculater.ans.value+='9'">
+    <input class="divison" type="button" value="/" onclick="document.calculater.ans.value+='/'">
+    <br>
+    <input class="zero" type="button" value="0" onclick="document.calculater.ans.value+='0'">
+    <input class="reset" type="reset" value="c" onclick="document.calculater.ans.value+=''">
+    <input class="multiplication" type="button"  value="*" onclick="document.calculater.ans.value+='*'">
+    <input class="equal" type="button"  value="=" onclick="document.calculater.ans.value= eval(document.calculater.ans.value)">
+  </h2>
+
+    
+</form>
+</html>
